@@ -1,0 +1,5 @@
+aiogram~=3.12.0
+asyncio~=3.4.3
+pytz~=2024.1
+toml~=0.10.2
+python-daemon~=3.0.1
