@@ -1,0 +1,30 @@
+[bot]
+test = false
+token = "123:qwerty"
+admin_chat_id = -100000000
+
+[logging]
+level = "WARNING"
+event_level = "WARNING"
+logfile = "data/bot.log"
+
+[config]
+max = 3
+
+[server]
+public_ip = "1.1.1.1"
+wg_port = 51820
+public_key = "8KwDSy0KdJivOflsqIkFaUv1UqsU6zELZ26otYEljw="
+config = "wg0.conf"
+interface = "wg0"
+busy_ports = [
+    22, 51820
+]
+
+[server.DNS]
+1 = "1.1.1.1"
+2 = "8.8.8.8"
+
+[date]
+timezone = "Europe/Moscow"
+format = "%d.%m.%Y %H:%M:%S"
